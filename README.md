@@ -6,8 +6,8 @@ A fully responsive landing page built using **Tailwind CSS** that mimics the lux
 
 | View |
 |------|
-| ![Website Screenshot](./src/img/Screenshot%202025-06-06%20194000.png) |
-| ![Screenshot 2](./src/img/Screenshot%202025-06-06%20194012.png) |
+| ![Website Screenshot](./img/Screenshot%202025-06-06%20194000.png) |
+| ![Screenshot 2](./img/Screenshot%202025-06-06%20194012.png) |
 
 
 ---
