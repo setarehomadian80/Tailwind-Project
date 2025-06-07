@@ -1,0 +1,26 @@
+{
+  "name": "tailwindproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setarehomadian80/TailwindProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/setarehomadian80/TailwindProject/issues"
+  },
+  "homepage": "https://github.com/setarehomadian80/TailwindProject#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.8"
+  }
+}

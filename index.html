@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/output.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <!-- ///////////////////swiper//////////////// -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="main-font">
+    <!-- ///////////////////////// section sm///////////////////// -->
+    <section class=" w-full h-screen lg:hidden">
+        <!-- ////////////////////video///////////////// -->
+        <div class="h-screen w-full relative">
+            <video class="absolute top-0 left-0 w-full h-full object-cover object-center" autoplay muted loop>
+                <source src="img/Gissah Perfumes - قصة للعطور.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- ////////////////////text////////////// -->
+        <div class="absolute w-full h-[50px] top-0 left-0 ">
+            <div class="flex w-auto h-full gap-2">
+                <a class="main-font flex h-full items-center text-white p-2 main-font" href="#"><i
+                        class="icon-globe"></i>السعوديه</a>
+                <a class="main-font flex h-full items-center text-white p-3 main-font" href="#"><i
+                        class="icon-smile"></i>العربية</a>
+            </div>
+        </div>
+        <!-- ///////////////header///////////////// -->
+        <div class="absolute w-full h-[70px] backdrop-blur-xl top-14 left-0 flex justify-around text-black">
+            <div class="hidden sm:flex sm:justify-start sm:items-center sm:w-1/4 "><i class="text-2xl icon-menu text-white"></i></div>
+            <div class="w-[30%] sm:w-1/4 df-c p-1"><img class="h-full" src="img/name-logo.png" alt=""></div>
+            <div class="w-[30%] sm:w-1/4 df-e">
+                <i class="icon-user text-white text-2xl"></i>
+                <i class="icon-bag text-white text-2xl"></i>
+                <i class="icon-search text-white text-2xl"></i>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////////////section md////////////////// -->
+    <section class="hidden lg:block relative custom-bg w-full h-[120vh] 2xl:custom-2xl-bg">
+        <!-- ///////////////// lg header /////////////////// -->
+        <div class="h-[70px] w-full absolute top-0 left-0 flex justify-between backdrop-blur-3xl fixed z-[999]">
+            <div class="h-full w-1/5 py-2 flex justify-center items-center"><img class="h-full" src="img/name-logo.png"
+                    alt=""></div>
+            <div class="w-3/5 h-full xl:w-2/5">
+                <ul class="w-full h-full flex justify-between items-center text-black px-5">
+                    <li><a class="main-font text-2xl hover:text-violet-800 hover:text-3xl transition-colors duration-300"
+                            href="#">الرئيسية</a></li>
+                    <li><a class="main-font text-2xl hover:text-violet-800 hover:text-3xl transition-colors duration-300"
+                            href="#">مجموعة التوقيع</a></li>
+                    <li><a class="main-font text-2xl hover:text-violet-800 hover:text-3xl transition-colors duration-300"
+                            href="#">مجموعة الفخامة</a></li>
+                    <li><a class="main-font text-2xl hover:text-violet-800 hover:text-3xl transition-colors duration-300"
+                            href="#">مجموعة المسك</a></li>
+                </ul>
+            </div>
+            <div class=" flex w-1/5 justify-center items-center">
+                <i class="icon-user text-black text-2xl"></i>
+                <i class="icon-bag text-black text-2xl"></i>
+                <i class="icon-search text-black text-2xl"></i>
+            </div>
+        </div>
+    </section>
+    <!-- ////////////////////////////slider section ///////////////////////// -->
+    <section class="w-full bg-white pt-5">
+        <!-- //////////////////title////////////// -->
+        <div class="w-full h-[150px] flex flex-wrap justify-center">
+            <h2 class="text-4xl flex items-center en-font">Gissah Perfume</h2>
+            <p class="sm:text-2xl w-full flex justify-center text-center en-font">These fragrances are exclusively designed
+                and have been carefully selected to look their best.</p>
+        </div>
+        <!-- /////////////////////////start slider///////////////// -->
+        <div class="w-full h-screen flex items-center lg:h-[80vh]">
+            <div class="slider-container w-full">
+                <div class="slider-track" id="sliderTrack">
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide group relative z-10 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                        <img src="img/1s.avif">
+                        <figcaption
+                            class="opacity-80 absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide group relative z-10 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                        <img src="img/2s.avif">
+                        <figcaption
+                            class="opacity-80 absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide group relative z-10 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)] ">
+                        <img src="img/3s.avif">
+                        <figcaption
+                            class="opacity-80 absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide group relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)] ">
+                        <img src="img/4s.avif">
+                        <figcaption
+                            class="opacity-80 absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide group relative z-10 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                        <img src="img/5s.avif">
+                        <figcaption
+                            class="opacity-80 group absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                    <!-- ////////////figure///////////// -->
+                    <figure
+                        class="slide relative z-10 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-200 before:rotate-5 before:-z-10 hover:before:rotate-12 before:duration-300 before:shadow-slate-500 before:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                        <img src="img/6s.avif">
+                        <figcaption
+                            class="opacity-80 group absolute top-0 left-0 w-full h-full p-10 text-xl text-center justify-center items-center hidden group-hover:flex">
+                            These Eau de Parfum and their related hair & Body mists, are designed to represent the brand
+                            in the booming market of modern oriental fragrances. Unique Stories to choose from.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- ///////////////////////end slider///////////////////// -->
+    </section>
+    <!-- ////////////////////////section background-image////////////////// -->
+    <section
+        class="w-full h-[80vh] sm:h-[120vh] flex justify-center items-center py-3 md:h-[150vh] lg:h-[550px] xl:h-[600px] 2xl:h-[550px]">
+        <div
+            class="w-[80%] h-full bg-amber-800 flex justify-center items-center second-bg rounded-2xl md:w-[80%] md:h-[150vh] lg:h-[400px] lg:w-[90%] xl:h-[500px] 2xl:h-[450px] 2xl:w-[70%]">
+        </div>
+    </section>
+    <!-- //////////////////////section Signature Collection//////////// -->
+    <section class="w-full">
+        <div class="w-full py-8">
+            <h2 class="text-center text-2xl en-font">Signature Collection</h2>
+        </div>
+        <!-- ////////////////////cards//////////////////// -->
+        <div class="w-full py-10 gap-y-3 sm:h-[130vh] md:h-[150vh] md:w-[90%] lg:w-[90%] lg:px-20 lg:gap-x-5 lg:h-[120vh] xl:w-full xl:h-[70vh] 2xl:h-[80vh] flex flex-wrap justify-around mx-auto">
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sec1.avif">
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font lg:text-xl">Siena Valley 200Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">330.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sec2.avif" alt="">
+                <figcaption class=" flex flex-wrap h-[30%] ">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class=" en-font lg:text-xl">Voila 200Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">330.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sec3.avif" alt="">
+                <figcaption class=" flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class="en-font lg:text-xl">Lost City - 50ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">120.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sec4.avif" alt="">
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font text-xl">Plato - 50ml</h3>
+                    </div>
+                    <div class=" flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">120.00</span>
+                            <span class="font-amiri lg:text-xl">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <div class="w-full flex items-start justify-center">
+                <a class="list-none bg-slate-100 p-2 rounded hover:scale-105 transition-transform duration-200 hover:border-2 hover:border-gray-500" href="#">View More</a>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////////////section background-image///////////////////// -->
+    <section
+        class="w-full h-[80vh] sm:h-[120vh] flex justify-center items-center py-3 md:h-[150vh] lg:h-[550px] xl:h-[600px] 2xl:h-[90vh]">
+        <div
+            class="w-[80%] h-full flex justify-center items-center third-bg rounded-2xl md:w-[80%] md:h-[150vh] lg:h-[400px] lg:w-[90%] xl:h-[500px] 2xl:h-[70vh] 2xl:w-[80%]">
+        </div>
+    </section>
+    <!-- //////////////////////////secton Luxury Collection//////////////////// -->
+    <section class="w-full">
+        <div class="w-full py-8">
+            <h2 class="text-center text-2xl en-font">Luxury Collection</h2>
+        </div>
+        <!-- ////////////////////cards//////////////////// -->
+        <div class="w-full py-10 gap-y-3 sm:h-[130vh] md:h-[150vh] md:w-[90%] lg:w-[90%] lg:px-20 lg:gap-x-5 lg:h-[120vh] xl:w-full xl:h-[70vh] 2xl:h-[80vh] flex flex-wrap justify-around mx-auto">
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <div class="w-full h-[70%] flex justify-center"><img class="w-[80%] h-[100%] " src="img/per-1.avif">
+                </div>
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font lg:text-xl">Vitus 90 Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl ">646.00</span>
+                            <span class="main-font lg:text-xl">ریال</span>
+                        </div>
+                        <a class="text-3xl  xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <div class="w-full h-[70%] flex justify-center">
+                    <img class="w-[80%] h-[100%]" src="img/per-2.avif" alt="">
+                </div>
+                <figcaption class=" flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class=" en-font lg:text-xl">Cueva Verde 90 Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">646.00</span>
+                            <span class="main-font lg:text-xl">ریال</span>
+                        </div>
+                        <a class="text-3xl  xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <div class="w-full h-[70%] flex justify-center">
+                    <img class="w-[80%] h-[100%]" src="img/per-3.avif" alt="">
+                </div>
+                <figcaption class=" flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class="en-font lg:text-xl">Erebus 90 Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">646.00</span>
+                            <span class="main-font lg:text-xl">ریال</span>
+                        </div>
+                        <a class="text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <div class="w-full h-[70%] flex justify-center">
+                    <img class="w-[80%] h-[100%] " src="img/per-4.avif" alt="">
+                </div>
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font lg:text-xl">Salvia 90 Ml</h3>
+                    </div>
+                    <div class=" flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">646.00</span>
+                            <span class="main-font lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <div class="w-full flex items-start justify-center ">
+                <a class="list-none bg-slate-100 p-2 rounded hover:scale-105 transition-transform duration-200 hover:border-2 hover:border-gray-500" href="#">View More</a>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////// section slider 2////////////////// -->
+    <section class="h-[80vh] xl:h-[70vh]">
+        <div class="w-full h-[50px] flex justify-center items-start mb-5 text-2xl">
+            <h2 class="en-font">Musk & Premium Collection</h2>
+        </div>
+        <div class=" p-2 card-wrapper swiper w-[65%] md:w-[90%] h-[350px] ">
+            <div class=" h-[100vh] swiper-wrapper">
+                <figure
+                    class=" p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%] flex justify-center"><img class="object-contain h-full  "
+                            src="img/slid1.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class=" h-full object-contain"
+                            src="img/slid2.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="h-full object-contain "
+                            src="img/slid3.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="object-contain h-full"
+                            src="img/slid4.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="h-full object-contain"
+                            src="img/slid5.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="h-full object-contain"
+                            src="img/slid6.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="h-full object-contain"
+                            src="img/slid7.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure
+                    class="p-2 rounded-xl  border-2 border-slate-400 swiper-slide hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                    <div class="w-full h-[75%]  flex justify-center"><img class="h-full object-contain"
+                            src="img/slid8.avif"></div>
+                    <figcaption class="h-[25%] flex flex-wrap ">
+                        <div class="w-full flex justify-center items-center">
+                            <h2>Vesta Set - EDP&Powder</h2>
+                        </div>
+                        <div class="flex items-end">
+                            <div class="flex flex-row-reverse">
+                                <span>191.00</span>
+                                <span class="main-font">ریال</span>
+                            </div>
+                            <div class=" ml-2">
+                                <a href="#">
+                                    <i class="icon-shop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev !text-black !z-20"></div>
+            <div class="swiper-button-next !text-black !z-20"></div>
+        </div>
+    </section>
+    <!-- /////////////////////section background-image//////////////// -->
+    <section
+        class="w-full h-[80vh] sm:h-[120vh] flex justify-center items-center py-3 md:h-[150vh] lg:h-[550px] xl:h-[600px] 2xl:h-[550px]">
+        <div
+            class="w-[80%] h-full bg-amber-800 flex justify-center items-center end-bg rounded-2xl md:w-[80%] md:h-[150vh] lg:h-[400px] lg:w-[90%] xl:h-[500px] 2xl:h-[450px] 2xl:w-[70%]">
+        </div>
+    </section>
+    <!-- //////////////////section All-Over Spray//////////////////// -->
+    <section class="w-full">
+        <div class="w-full py-8">
+            <h2 class="text-center text-2xl en-font">All-Over Spray</h2>
+        </div>
+        <!-- ////////////////////cards//////////////////// -->
+        <div class="w-full py-10 gap-y-3 sm:h-[130vh] md:h-[150vh] md:w-[90%] lg:w-[90%] lg:px-20 lg:gap-x-5 lg:h-[120vh] xl:w-full xl:h-[70vh] 2xl:h-[80vh] flex flex-wrap justify-around mx-auto">
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sp1.avif">
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font lg:text-xl">Cardinal All over 100Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end md:items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-lg">207.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sp2.avif" alt="">
+                <figcaption class=" flex flex-wrap h-[30%] ">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class=" en-font lg:text-xl xl:text-xl">Morpho All over - 100Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">207.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sp3.avif" alt="">
+                <figcaption class=" flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center ">
+                        <h3 class="en-font lg:text-xl">Helen All over - 100Ml</h3>
+                    </div>
+                    <div class="flex justify-between w-full items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">207.00</span>
+                            <span class="font-amiri lg:text-xl"">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <figure
+                class="w-[65%] sm:w-[45%] md:w-[38%] lg:w-[35%] xl:w-[20%]  border border-1 border-gray-400 p-2 h-[45%] md:h-[35%] xl:h-[70%] hover:border-2 hover:border-black hover:shadow-[0_0_15px_rgba(0,0,0,0.2)]">
+                <img class="w-[100%] h-[70%]" src="img/sp4.jpgv1697672600" alt="">
+                <figcaption class="flex flex-wrap h-[30%]">
+                    <div class="w-full flex items-center justify-center">
+                        <h3 class="en-font lg:text-xl xl:text-xl">Imperial All Over - 100Ml</h3>
+                    </div>
+                    <div class=" flex justify-between w-full  items-end">
+                        <div class="flex flex-row-reverse">
+                            <span class="lg:text-xl">207.00</span>
+                            <span class="font-amiri lg:text-xl">ریال</span>
+                        </div>
+                        <a class=" text-3xl xl:text-2xl" href="#"><i class="icon-shop"></i></a>
+                        </div>
+                </figcaption>
+            </figure>
+            <div class="w-[65%] sm:w-[45%] flex items-start justify-center ">
+                <a class="list-none bg-slate-100 p-2 rounded hover:scale-105 transition-transform duration-200 hover:border-2 hover:border-gray-500" href="#">View More</a>
+            </div>
+        </div>
+    </section>
+    <!-- ////////////////////////text section////////////////////// -->
+    <section class="h-[120vh] md:h-[90vh] lg:h-[70vh] df-c flex-wrap w-full pt-10 md:pt-5 lg:py-10 ">
+        <div class="w-full df-c">
+            <h2 class=" lg:w-[40%] en-font df-c text-2xl ">Perfume is the key to beauty</h1>
+        </div>
+        <div class="w-full df-c ">
+            <p class="w-[70%] lg:w-[80%] text-center leading-[28px] lg:leading-[30px] en-font">In a moment that passes
+                in our lives, there are interesting stories waiting for us, sharing with us our best times, including
+                what it is inspired by the books of myths and ancient cultures, and Some of them translate our
+                connection to our authentic heritage, Stories formed in the finest, most luxurious, and most unique
+                places, And another was born as a result of many challenges and adventures, To be a strong, stable
+                instinct that rises to the highest degrees, like a high inspiration in her superlative position, And
+                with the beauty of her fragrant scent, It is distinguished by its quality and its mark, Stories
+                published by her fragrance to touch your pure hearts, you are the ones who adorn them.</p>
+        </div>
+        <div class="text-black w-full flex items-start justify-center"><a class="df-c bg-gray-100 p-2 rounded-sm transition-transform duration-200 hover:border-2 hover:border-gray-500" href="#">View More</a></div>
+    </section>
+    <!-- /////////////////section///////////// -->
+    <footer class="w-full h-[90vh] lg:h-[80vh] xl:h-[80vh]">
+        <div class="footer-bg w-full h-full flex flex-wrap relative">
+            <div class="w-full h-full xl:flex xl:justify-between lg:pt-5 ">
+                <div class="w-full h-[150px] df-c 2xl:justify-start 2xl:ml-5 xl:w-[30%] 2xl:w-[20%]"><img class="w-40 h-full " src="img/logo-footer.png">
+                </div>
+                <div class="w-full df-c py-2 xl:hidden">
+                    <a href="#"><i class="icon-phone text-xl"></i></a>
+                    <a href="#"><i class="icon-instagram text-xl"></i></a>
+                    <a href="#"><i class="icon-telegram text-xl"></i></a>
+                    <a href="#"><i class="icon-mail text-xl"></i></a>
+                    <a href="#"><i class="icon-whatsapp text-xl"></i></a>
+                </div>
+                <div class="flex justify-center mt-10 xl:mt-0">
+                    <div
+                        class="flex flex-wrap w-[25%] *:text-center *:w-full xl:h-[100px] xl:w-[15%] ">
+                        <strong>Link</strong>
+                        <a cl href="#">Home page</a>
+                        <a href="#">About us</a>
+                    </div>
+                    <div class="flex flex-wrap w-[25%] *:text-center *:w-full xl:h-[100px] xl:w-[20%]">
+                        <strong>Other Links</strong>
+                        <a href="#">Terms & conditions</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Refund policy</a>
+                    </div>
+                    <div class="flex flex-wrap w-[25%] *:text-center *:w-full  xl:h-[100px] xl:w-[25%]">
+                        <strong>Our location on the map</strong>
+                        <a href="#"></a>
+                        <a href="#"><i class="icon-location"></i>GISSAH STORE</a>
+                    </div>
+                </div>
+                <!-- //////////////////location/////////////// -->
+                <div class="hidden 2xl:flex w-[25%] h-[240px] absolute top-5 left-[25%] rounded-md">
+                    <iframe class="rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.0327944672!2d54.897819398597086!3d25.07565837494867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1749360429478!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <!-- /////////////////end footer box////////////// -->
+            <div class=" w-full h-[100px] absolute top-96 xl:top-72 flex items-center justify-center border-b-2 border-gray-200">
+                <div class="w-12"><img src="img/apple_pay.svg" alt=""></div>
+                <div class="w-10"><img src="img/visa-circle.png" alt=""></div>
+                <div class="w-10"><img src="img/mastercard-circle.png" alt=""></div>
+                <div class="w-20"><img src="img/mada-circle.png" alt=""></div>
+            </div>
+            <div class="w-full h-[80px] absolute bottom-0 flex justify-between  px-5 lg:px-20">
+                <div class="flex items-center justify-between">
+                    <img class=" sm:w-10 sm:h-14" src="img/vat-certificate.png">
+                    <a class="hidden sm:flex sm:px-2" href="#">310924542500003</a>
+                </div>
+                <div class="df-c"><p class="text-sm">© 2024, This website is owned by "Gissah Perfume Co"</p></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        const track = document.getElementById('sliderTrack');
+        const slides = Array.from(track.children);
+
+        // Duplicate slides for seamless looping
+        slides.forEach(slide => {
+            const clone = slide.cloneNode(true);
+            track.appendChild(clone);
+        });
+    </script>
+    <!-- ////////////////////swiper///////////////// -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- //////////////scrip js//////////// -->
+    <script src="scrip.js"></script>
+</body>
+
+</html>

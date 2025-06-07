@@ -1,0 +1,149 @@
+/* tailwindcss v4 */
+@import "tailwindcss";
+
+/* فونت‌های سفارشی بدون @apply */
+@layer base {
+
+  .main-font {
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .en-font {
+    font-family: 'Cinzel', serif;
+  }
+
+  .custom-bg {
+    background-image: url('../img/e9627037-dc04-4b48-87f0-de8201bb7676.png');
+    background-size: 100%;
+    background-position: top;
+    background-size: cover;
+  }
+
+  @media (min-width: 1024px) {
+    .custom-bg {
+      background-image: url('../img/2xl-img.png');
+      background-position: top;
+      background-size: cover;
+    }
+
+  }
+
+  .second-bg {
+    background-image: url('../img/md-img-sec.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-width: 1024px) {
+    .second-bg {
+      background-image: url('../img/sec-img-3.png');
+      background-position: start;
+      background-size: cover;
+    }
+  }
+  .third-bg {
+   background-image: url('../img/md-bg-th.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   @media (min-width: 1024px) {
+    .third-bg {
+       background-image: url('../img/arab-img.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+   .end-bg {
+   background-image: url('../img/sec-img-4-md.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   @media (min-width: 1024px) {
+    .end-bg {
+       background-image: url('../img/sec-img-4.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .footer-bg {
+       background-image: url('../img/bg-footer.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+}
+
+@layer components {
+  .df-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .df-s {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .df-e {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+@layer utilities {
+
+  .slider-container {
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+
+  .slider-track {
+    display: flex;
+    gap: 120px;
+    position: absolute;
+    right: 0;
+    animation: slideLeft 30s linear infinite;
+
+    >figure {
+      >figcaption {
+        background-color: #a7b5c4af;
+        color: rgb(17, 16, 16);
+      }
+    }
+  }
+
+  .slide {
+    flex: 0 0 25%;
+    height: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+
+  }
+
+}
