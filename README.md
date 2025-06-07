@@ -46,7 +46,7 @@ A fully responsive landing page built using **Tailwind CSS** that mimics the lux
 
 ## 🖼 Preview
 
-live demo[]
+live demo[https://setarehomadian80.github.io/Tailwind-Project/]
 
 ---
 
